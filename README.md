@@ -27,10 +27,10 @@ And it does all this by chatting with you in plain English.
 Clone the repo:
 
 ```
-git clone https://github.com/YOUR_USERNAME/ubuntu-telebot-ai.git
-cd ubuntu-telebot-ai
-chmod +x install_telebot_ai.sh
-sudo ./install_telebot_ai.sh
+git clone https://github.com/sev7ne11ven/Ubuntu-Server-Manager-Telegram-Bot.git
+cd Ubuntu-Server-Manager-Telegram-Bot
+chmod +x setup.sh
+sudo ./setup.sh
 ```
 
 The script will ask you for:
@@ -103,8 +103,8 @@ Auto-restarts if it crashes
 
 If you want to completely remove the bot:
 ```
-chmod +x uninstall_telebot_ai.sh
-sudo ./uninstall_telebot_ai.sh
+chmod +x uninstall.sh
+sudo ./uninstall.sh
 ```
 This will:
 
