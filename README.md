@@ -73,7 +73,6 @@ Internet speed → speedtest-cli
 
 Network tools → net-tools, iperf3
 
-(You can install them later or we can make the bot ask you when it needs them.)
 
 💡 Example Things You Can Say
 
@@ -102,6 +101,8 @@ Auto-restarts if it crashes
 ## ❌ Uninstalling
 
 If you want to completely remove the bot:
+
+Run the following inside the cloned repo
 ```
 chmod +x uninstall.sh
 sudo ./uninstall.sh
