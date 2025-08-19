@@ -26,11 +26,12 @@ And it does all this by chatting with you in plain English.
 
 Clone the repo:
 
+```
 git clone https://github.com/YOUR_USERNAME/ubuntu-telebot-ai.git
 cd ubuntu-telebot-ai
 chmod +x install_telebot_ai.sh
 sudo ./install_telebot_ai.sh
-
+```
 
 The script will ask you for:
 
@@ -46,15 +47,16 @@ That’s it. 🎉 Your bot is now running as a background service and will start
 
 Manage it like any other systemd service:
 
+```
 sudo systemctl start telebot_ai
 sudo systemctl stop telebot_ai
 sudo systemctl restart telebot_ai
-
+```
 
 Peek at the logs if you’re curious:
-
+```
 journalctl -u telebot_ai -f
-
+```
 🛠️ What Gets Installed
 
 The installer keeps it minimal:
@@ -100,10 +102,10 @@ Auto-restarts if it crashes
 ## ❌ Uninstalling
 
 If you want to completely remove the bot:
-
+```
 chmod +x uninstall_telebot_ai.sh
 sudo ./uninstall_telebot_ai.sh
-
+```
 This will:
 
 Stop the systemd service
